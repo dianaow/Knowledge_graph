@@ -1,0 +1,6 @@
+.DS_Store
+.ipynb_checkpoints
+node_modules
+npm-debug.log
+.prettierrc
+.eslintrc.js
