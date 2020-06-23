@@ -7,6 +7,7 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://d3js.org/d3-array.v2.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="main.js"></script>
   <script src="calendar.js"></script>
   <style>
@@ -19,6 +20,18 @@
       font-size: 2em;
       font-family: 'Montserrat', sans-serif;
       color: #E10100;
+    }
+    .red {
+      color: #E10100;
+    }
+    .blue {
+      color: #00bcd4;
+    }
+    .darkblue {
+      color: #3f51b5;
+    }
+    .fa {
+      color: gray;
     }
     .shadowed-box {
       -webkit-box-shadow: 0 4px 12px rgba(0,0,0,.19);
@@ -102,6 +115,14 @@
       padding: 20px;
       background-color: #fff;
     }
+    #title {
+      display: flex;
+      align-items: center;
+    }
+    .avatar {
+      display: none;
+      margin-right: 15px;
+    }
     #calendar-chart {
       position: relative;
       width: 100%;
@@ -111,13 +132,20 @@
       pointer-events: none;
     }
     .search-component {
+      position: relative;
       width: 50%;
       flex-flow: column;
       max-height: 35px;
     }
+    .search-component label {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      z-index: 5;
+    }
     .autocomplete-searchbar {
       position: relative;
-      padding: 10px 20px;
+      padding: 10px 40px;
       border: .5px solid #ccc;
       width: 100%;
       border-radius: 17.5px;
@@ -125,14 +153,70 @@
     input:focus {
       outline: none;
     }
+    .buttons-box {
+      display: flex;
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+    }
+    .on-graph-button {
+      z-index: 2;
+      background: #fff;
+      width: 35px;
+      height: 35px;
+      border: .5px solid gray;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 68px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: gray;
+      fill: gray;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: auto;
+      cursor: pointer;
+    }
+    .logo-container {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      display: flex;
+      align-items: center;
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(255,255,255,0.95);
+      color: #171717;
+      font-family: Montserrat, Futura, "Gill Sans", "Gill Sans MT", "Century Gothic", CenturyGothic, sans-serif;
+      font-size: 1.125em;
+      -webkit-letter-spacing: -0.01em;
+      -moz-letter-spacing: -0.01em;
+      -ms-letter-spacing: -0.01em;
+      letter-spacing: -0.01em;
+      margin: 0;
+    }
+    .logo-tia {
+        fill: #e10000;
+        -webkit-transition: fill 0.3s;
+        transition: fill 0.3s;
+        margin-right: 6px;
+    }
   </style>
 </head>
 <body>
   <div id='app'>
 
       <div class='main-view-navbar'>
+        <div class="logo-container">
+          <svg viewBox="0 0 36 25" width="36" height="25" class="jsx-3111603027 jsx-3109345124 logo-tia"><path d="M25.3 10.2c.3.2.6 0 .5-.4L24.2 7h-.6l-10 17.7c-.4.4-1 .4-1.2 0L9 19l-.2-.8v-5c0-.5-.2-.8-.5-1l-8-7c-.5-.3-.3-1 .4-1H15l3.5 2c.2.2.2.4 0 .5l-1.4 2.6c0 .2-.2.3-.3.2L14 8l-.6-.2H9.7c-.3 0-.4.4-.2.6l2.5 2c.3.3.4.7.4 1V18c0 .4.5.5.7.2L23.5.2c.2-.3 1-.3 1 0l10.7 18.5c.5.6-.2 1.2-.8 1L22 12.4c-.2 0-.3-.3-.2-.4l1.5-2.5c0-.2.3-.2.5-.2l1.5 1z" class="jsx-3111603027 jsx-3109345124"></path></svg>
+          <svg viewBox="0 0 101 14" width="101" height="14" class="jsx-3111603027 jsx-3109345124 logo-text"><title class="jsx-3111603027 jsx-3109345124">Tech in Asia</title><path d="M94.4 4l1.4 4.3h-3L94.5 4zM88 13h3.4l.8-2.2h4.3l.8 2.2h3.4L96 .5h-3.3L88 13zm-4 0h3.4V.5H84V13zM73 8.7c0 3 2.4 4.3 5.2 4.3 2.6 0 5.2-1 5.2-4 0-2.2-1.8-3-3.5-3.5C78 5 76.3 5 76.3 4c0-.8 1-1 1.5-1 1 0 2 .3 2 1.4h3c0-2.7-2.4-4-4.8-4-2.3 0-5 1-5 3.8 0 2.2 2 3 3.6 3.4 1.8.5 3.5.7 3.5 1.8 0 1-1 1.2-2 1.2-1.3 0-2.2-.5-2.2-2h-3zM67.3 4l1.4 4.3h-3L67.4 4zM61 13h3.3l.8-2.2h4.4l.8 2.2h3.4L69 .5h-3.4L61 13zm-11 0h1.3V2.4L58.6 13H60V.5h-1.2V11L51.4.6H50V13zm-2.6 0h1.2V.5h-1.2V13zM35 13h3.3V8h4.3v5h3.2V.5h-3.2V5h-4.3V.6H35V13zm-1-8C34 2.2 31.3.5 28.7.5c-3.6 0-6 2.8-6 6.3 0 3.4 2.4 6.2 6 6.2 3 0 5.3-1.8 5.5-5h-3c-.2 1.5-1 2.3-2.5 2.3-2 0-2.8-1.8-2.8-3.5 0-1.8.8-3.6 2.8-3.6 1.3 0 2.3.6 2.4 1.8h3zm-21.7 8h10.2v-2.8h-7V7.8h6.2V5.3h-6V3h6.6V.6h-10V13zM11.3.5H.8v2.8h3.7V13h3.3V3.3h3.7V.5z" class="jsx-3111603027 jsx-3109345124"></path></svg>
+        </div>
         <div class='search-component'>
-          <input type="text" placeholder="Search for an author, category or title keyword" class="autocomplete-searchbar input-field-button">
+          <label>
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </label>
+          <input type="text" placeholder="Search for an author, category or article title keyword" class="autocomplete-searchbar">
         </div>
       </div> 
 
@@ -140,27 +224,45 @@
 
         <div class='internal-mainview-column'>
           <div id="chart"></div>
+          <div class='buttons-box'>
+            <button type='button' class='on-graph-button zoom-in'>
+              <i class="fa fa-search-plus" aria-hidden="true"></i>
+            </button>
+            <button type='button' class='on-graph-button zoom-out'>
+              <i class="fa fa-search-minus" aria-hidden="true"></i>
+            </button>
+            <button type='button' class='on-graph-button refresh'>
+              <i class="fa fa-refresh" aria-hidden="true"></i>
+            </button>
+            <p style='font-size: 9px; color: gray; margin: 20px 0px 0px 10px;'>Node size and edge width represents article count</p>
+          </div>
         </div>
 
         <div class="abstractbox-column">
           <div class="abstractbox">
             <div class="fold-button-div shadowed-box">
-              <svg style='display: block' aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-caret-right fa-w-6"><path fill="#000" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z" class=""></path></svg>
-              <svg style='display: none' aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-caret-left fa-w-6"><path data-v-5989d95c="" fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z" class=""></path></svg>
+              <svg style='display: block; vertical-align: middle;' aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-caret-right fa-w-6"><path fill="#000" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z" class=""></path></svg>
+              <svg style='display: none; vertical-align: middle;' aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" class="svg-inline--fa fa-caret-left fa-w-6"><path data-v-5989d95c="" fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z" class=""></path></svg>
             </div>
             <div class="shadowed-box" id='tooltip'>
-              <div id='title'><h2></h2></div>
+              <div id='title'>
+                <div class="avatar">
+                  <img alt="" width="72" height="72" style="object-fit: cover; display: inline-block; background-color: rgba(0, 0, 0, 0.067); border-radius: 123123px;">
+                </div>
+                <h2></h2>
+              </div>
               <div id='summary'></div>
-              <div id='top_keywords'>
-                <h3>Top Keywords</h3>
+              <div id='top_categories'>
+                <h3 class='blue'>Top Categories</h3>
                 <ul></ul>
               </div>
-              <div id='top_categories'>
-                <h3>Top Categories</h3>
+              <div id='top_keywords'>
+                <h3 class='darkblue'>Top Title Keywords</h3>
                 <ul></ul>
               </div>
               <div id="calendar-chart">
                 <p>Articles contributed in the past 4 months</p>
+                <p style='font-size: 9px; color: gray;'>UTC Time Zone</p>
               </div>
             </div>
           </div>
