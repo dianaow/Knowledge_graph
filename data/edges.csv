@@ -1,43 +1,105 @@
 start_id,end_id,total,category
+News,Startups,479.00000000000006,categories-categories
+News,Investments,319.0,categories-categories
+Startups,Investments,297.0,categories-categories
 Miguel Cordon,News,230.0,author-categories
 Doris Yu,News,225.0,author-categories
 Miguel Cordon,Startups,198.0,author-categories
 Doris Yu,Startups,184.0,author-categories
 Doris Yu,Investments,155.0,author-categories
 Miguel Cordon,Investments,132.0,author-categories
+News,Fintech,92.0,categories-categories
+Fintech,Investments,57.00000000000001,categories-categories
+Startups,Fintech,47.0,categories-categories
 Miguel Cordon,Fintech,40.0,author-categories
+Transportation,News,39.0,categories-categories
+News,Ecommerce,38.0,categories-categories
+Miguel Cordon,fund,38.0,author-keywords
 Doris Yu,Fintech,37.0,author-categories
+Startups,Transportation,34.0,categories-categories
+News,Artificial Intelligence,33.0,categories-categories
+Premium Content,Analysis,33.0,categories-categories
 TIA Visuals,Visual Stories,31.0,author-categories
-Doris Yu,Ecommerce,21.0,author-categories
-TIA Bot,Premium Content,21.0,author-categories
-TIA Bot,Landscape reports,21.0,author-categories
+Artificial Intelligence,Startups,31.0,categories-categories
+money,series,30.8411214953271,keywords-keywords
+Doris Yu,series,30.0,author-keywords
+Opinion,Community,29.0,categories-categories
+Miguel Cordon,series,29.0,author-keywords
+Community,Startups,28.0,categories-categories
+Doris Yu,fund,27.0,author-keywords
+Premium Content,Profiles,25.0,categories-categories
+Premium Content,Landscape reports,25.0,categories-categories
+Landscape reports,Investments,25.0,categories-categories
+Artificial Intelligence,Investments,24.0,categories-categories
+fund,seed,22.429906542056074,keywords-keywords
+Doris Yu,singapore,22.0,author-keywords
+Investments,Premium Content,21.0,categories-categories
 TIA Bot,Investments,21.0,author-categories
+TIA Bot,Premium Content,21.0,author-categories
+Doris Yu,Ecommerce,21.0,author-categories
+TIA Bot,Landscape reports,21.0,author-categories
+News,Acquisitions,20.0,categories-categories
 Terence Lee,Premium Content,20.0,author-categories
 Melissa Goh,Premium Content,20.0,author-categories
+Opinion,Startups,20.0,categories-categories
+Asia,Premium Content,20.0,categories-categories
+Premium Content,Fintech,20.0,categories-categories
+Acquisitions,Startups,19.0,categories-categories
+fund,series,18.22429906542056,keywords-keywords
+Miguel Cordon,money,18.0,author-keywords
 Miguel Cordon,Transportation,18.0,author-categories
+Ecommerce,Premium Content,18.0,categories-categories
 Doris Yu,Artificial Intelligence,17.0,author-categories
 Miguel Cordon,Ecommerce,17.0,author-categories
+Miguel Cordon,singapore,17.0,author-keywords
+Premium Content,Trends,16.0,categories-categories
 Putra Muskita,Premium Content,15.0,author-categories
+Miguel Cordon,seed,15.0,author-keywords
+gojek,grab,14.018691588785046,keywords-keywords
+Asia,Analysis,14.0,categories-categories
+Miguel Cordon,grab,14.0,author-keywords
 Aditya Hadi Pratama,Premium Content,14.0,author-categories
-Stefanie Yeo,TIA Partnership,13.0,author-categories
 Willis Wee,Opinion,13.0,author-categories
+Miguel Cordon,india,13.0,author-keywords
+Kenan Machado,india,13.0,author-keywords
+Doris Yu,indonesia,13.0,author-keywords
+Stefanie Yeo,TIA Partnership,13.0,author-categories
+Startups,Landscape reports,12.0,categories-categories
+Miguel Cordon,hong kong,12.0,author-keywords
+Doris Yu,india,12.0,author-keywords
 TIA Visuals,Asia,12.0,author-categories
+Visual Stories,Asia,12.0,categories-categories
 Doris Yu,Transportation,12.0,author-categories
 Kenan Machado,Premium Content,12.0,author-categories
 Jonathan Burgos,News,12.0,author-categories
-Miguel Cordon,Acquisitions,11.0,author-categories
-TIA Bot,Startups,11.0,author-categories
-Kenan Machado,News,11.0,author-categories
-Thu Huong Le,News,11.0,author-categories
+Miguel Cordon,indonesia,11.0,author-keywords
 Avanish Tiwary,News,11.0,author-categories
-Henan Sun,News,10.0,author-categories
-Melissa Goh,Profiles,10.0,author-categories
-Terence Lee,Startups,10.0,author-categories
+Miguel Cordon,app,11.0,author-keywords
+Doris Yu,money,11.0,author-keywords
+Premium Content,Startups,11.0,categories-categories
+Miguel Cordon,platform,11.0,author-keywords
+Thu Huong Le,News,11.0,author-categories
+Kenan Machado,News,11.0,author-categories
+TIA Bot,Startups,11.0,author-categories
+Miguel Cordon,Acquisitions,11.0,author-categories
+TIA Visuals,series,10.0,author-keywords
 Joseph Gan,Premium Content,10.0,author-categories
-Jonathan Burgos,Announcements,10.0,author-categories
-Melissa Goh,Trends,10.0,author-categories
 Moulishree Srivastava,News,10.0,author-categories
+Melissa Goh,Trends,10.0,author-categories
+News,Gaming,10.0,categories-categories
+Jonathan Burgos,Announcements,10.0,author-categories
+Henan Sun,News,10.0,author-categories
+Terence Lee,Startups,10.0,author-categories
+Melissa Goh,Profiles,10.0,author-categories
+Doris Yu,platform,10.0,author-keywords
 Avanish Tiwary,Startups,10.0,author-categories
+Miguel Cordon,capital,10.0,author-keywords
+Blockchain,News,10.0,categories-categories
+fund,softbank,9.813084112149532,keywords-keywords
+gojek,indonesia,9.813084112149532,keywords-keywords
+Doris Yu,seed,9.0,author-keywords
+Doris Yu,softbank,9.0,author-keywords
+News,Analysis,9.0,categories-categories
 Henan Sun,Startups,9.0,author-categories
 Nathaniel Fetalvero,Startups,9.0,author-categories
 Khamila Mulia,News,9.0,author-categories
@@ -45,27 +107,59 @@ Wency Chen,News,9.0,author-categories
 Terence Lee,News,9.0,author-categories
 Melissa Goh,Fintech,9.0,author-categories
 Thu Huong Le,Startups,9.0,author-categories
-Aditya Hadi Pratama,Startups,8.0,author-categories
-Miguel Cordon,Artificial Intelligence,8.0,author-categories
-Putra Muskita,Asia,8.0,author-categories
 Khamila Mulia,Startups,8.0,author-categories
 Jack Ellis,Premium Content,8.0,author-categories
-Doris Yu,Acquisitions,8.0,author-categories
-Nathaniel Fetalvero,Asia,8.0,author-categories
-Moulishree Srivastava,Startups,8.0,author-categories
 Joseph Gan,Startups,8.0,author-categories
-Putra Muskita,News,7.0,author-categories
-"Vincent Fernando, CFA",Premium Content,7.0,author-categories
+Moulishree Srivastava,Startups,8.0,author-categories
+Nathaniel Fetalvero,Asia,8.0,author-categories
+Doris Yu,Acquisitions,8.0,author-categories
+Aditya Hadi Pratama,indonesia,8.0,author-keywords
+TIA Bot,tech,8.0,author-keywords
+Putra Muskita,Asia,8.0,author-categories
+Miguel Cordon,Artificial Intelligence,8.0,author-categories
+Aditya Hadi Pratama,Startups,8.0,author-categories
+Avanish Tiwary,india,7.0,author-keywords
+Miguel Cordon,digital,7.0,author-keywords
+Doris Yu,launch,7.0,author-keywords
+Doris Yu,capital,7.0,author-keywords
+Miguel Cordon,gojek,7.0,author-keywords
+Putra Muskita,indonesia,7.0,author-keywords
 Kenan Machado,Asia,7.0,author-categories
-Terence Lee,Ecommerce,7.0,author-categories
-Terence Lee,Announcements,7.0,author-categories
-Kenan Machado,Analysis,7.0,author-categories
+Miguel Cordon,softbank,7.0,author-keywords
 TIA Visuals,Analysis,7.0,author-categories
-Melissa Goh,News,6.0,author-categories
-Melissa Goh,Investments,6.0,author-categories
-TIA Visuals,Investments,6.0,author-categories
+Kenan Machado,Analysis,7.0,author-categories
+Terence Lee,Announcements,7.0,author-categories
+Terence Lee,Ecommerce,7.0,author-categories
+Miguel Cordon,tech,7.0,author-keywords
+"Vincent Fernando, CFA",Premium Content,7.0,author-categories
+Putra Muskita,News,7.0,author-categories
+Doris Yu,gojek,6.0,author-keywords
+Doris Yu,jio,6.0,author-keywords
+Jonathan Burgos,coronavirus,6.0,author-keywords
+Doris Yu,facebook,6.0,author-keywords
+Doris Yu,digital,6.0,author-keywords
+Doris Yu,grab,6.0,author-keywords
 Wency Chen,Startups,6.0,author-categories
+Melissa Goh,News,6.0,author-categories
 Song Jingli,News,6.0,author-categories
+TIA Visuals,Investments,6.0,author-categories
+Melissa Goh,Investments,6.0,author-categories
+Henan Sun,china,5.0,author-keywords
+Miguel Cordon,edtech,5.0,author-keywords
+Wency Chen,bytedance,5.0,author-keywords
+Doris Yu,app,5.0,author-keywords
+TIA Bot,venture,5.0,author-keywords
+TIA Bot,capital,5.0,author-keywords
+Miguel Cordon,service,5.0,author-keywords
+Doris Yu,china,5.0,author-keywords
+Doris Yu,southeast,5.0,author-keywords
+Betty Chum,Videos,5.0,author-categories
+"Vincent Fernando, CFA",Analysis,5.0,author-categories
+Doris Yu,service,5.0,author-keywords
+Moulishree Srivastava,india,5.0,author-keywords
+Winston Zhang,TIA Partnership,5.0,author-categories
+Betty Chum,Events,5.0,author-categories
+"Vincent Fernando, CFA",Opinion,5.0,author-categories
 Melvin Chen,Videos,5.0,author-categories
 Nathaniel Fetalvero,TIA Partnership,5.0,author-categories
 Joseph Gan,News,5.0,author-categories
@@ -76,37 +170,74 @@ TIA Visuals,Landscape reports,5.0,author-categories
 Thu Huong Le,Investments,5.0,author-categories
 Kenan Machado,Startups,5.0,author-categories
 Melvin Chen,Asia,5.0,author-categories
-"Vincent Fernando, CFA",Analysis,5.0,author-categories
-Winston Zhang,TIA Partnership,5.0,author-categories
 Miguel Cordon,Blockchain,5.0,author-categories
-Betty Chum,Videos,5.0,author-categories
-Betty Chum,Events,5.0,author-categories
 "Vincent Fernando, CFA",News,5.0,author-categories
-"Vincent Fernando, CFA",Opinion,5.0,author-categories
-Nikki Natividad,Premium Content,4.0,author-categories
-Stefanie Yeo,Artificial Intelligence,4.0,author-categories
-Song Jingli,Startups,4.0,author-categories
-Avanish Tiwary,Investments,4.0,author-categories
-Cindy Silviana,Startups,4.0,author-categories
-Nicole Jao,Premium Content,4.0,author-categories
-Aditya Hadi Pratama,News,4.0,author-categories
-Jack Ellis,Analysis,4.0,author-categories
-TIA Visuals,Startups,4.0,author-categories
-Miguel Cordon,Management,4.0,author-categories
-Moulishree Srivastava,Investments,4.0,author-categories
+Joseph Gan,Profiles,4.0,author-categories
 Nikki Natividad,Startups,4.0,author-categories
 Cindy Silviana,News,4.0,author-categories
-Joseph Gan,Profiles,4.0,author-categories
-Ursula Florene,Startups,4.0,author-categories
-Putra Muskita,Analysis,4.0,author-categories
-Doris Yu,Blockchain,4.0,author-categories
-Ursula Florene,News,4.0,author-categories
+Miguel Cordon,Management,4.0,author-categories
+TIA Visuals,Startups,4.0,author-categories
+Jack Ellis,Analysis,4.0,author-categories
+Aditya Hadi Pratama,News,4.0,author-categories
+Nicole Jao,Premium Content,4.0,author-categories
+Cindy Silviana,Startups,4.0,author-categories
+Avanish Tiwary,Investments,4.0,author-categories
+Song Jingli,Startups,4.0,author-categories
+Stefanie Yeo,Artificial Intelligence,4.0,author-categories
+Nikki Natividad,Premium Content,4.0,author-categories
+Moulishree Srivastava,Investments,4.0,author-categories
+Doris Yu,sea,4.0,author-keywords
 TIA Bot,Fintech,4.0,author-categories
+Miguel Cordon,jio,4.0,author-keywords
+TIA Bot,china,4.0,author-keywords
+Miguel Cordon,china,4.0,author-keywords
+Doris Yu,tech,4.0,author-keywords
+Jack Ellis,grab,4.0,author-keywords
+Miguel Cordon,delivery,4.0,author-keywords
+TIA Visuals,fund,4.0,author-keywords
+TIA Bot,india,4.0,author-keywords
+Miguel Cordon,launch,4.0,author-keywords
+Aditya Hadi Pratama,gojek,4.0,author-keywords
+Terence Lee,gojek,4.0,author-keywords
+Doris Yu,edtech,4.0,author-keywords
+TIA Visuals,seed,4.0,author-keywords
+TIA Bot,southeast,4.0,author-keywords
+Putra Muskita,Analysis,4.0,author-categories
+Miguel Cordon,staff,4.0,author-keywords
+Miguel Cordon,southeast,4.0,author-keywords
+Ursula Florene,Startups,4.0,author-categories
+Ursula Florene,News,4.0,author-categories
 Stefanie Yeo,Business-to-business,4.0,author-categories
 Masha Borak,News,4.0,author-categories
 Willis Wee,Premium Content,4.0,author-categories
 Jonathan Burgos,Asia,4.0,author-categories
 Aditya Hadi Pratama,Analysis,4.0,author-categories
+Doris Yu,Blockchain,4.0,author-categories
+Kenan Machado,Investments,3.0,author-categories
+Kenan Machado,edtech,3.0,author-keywords
+Maria Li,tech,3.0,author-keywords
+Terence Lee,southeast,3.0,author-keywords
+Khamila Mulia,indonesia,3.0,author-keywords
+Doris Yu,Gaming,3.0,author-categories
+Stefanie Yeo,tech,3.0,author-keywords
+Aditya Hadi Pratama,Trends,3.0,author-categories
+Miguel Cordon,oyo,3.0,author-keywords
+AJ Cortese,Startups,3.0,author-categories
+Putra Muskita,online,3.0,author-keywords
+Miguel Cordon,pay,3.0,author-keywords
+Willis Wee,gojek,3.0,author-keywords
+Doris Yu,bank,3.0,author-keywords
+AJ Cortese,News,3.0,author-categories
+Miguel Cordon,online,3.0,author-keywords
+Miguel Cordon,sea,3.0,author-keywords
+Avanish Tiwary,softbank,3.0,author-keywords
+Doris Yu,pay,3.0,author-keywords
+Doris Yu,ceo,3.0,author-keywords
+Miguel Cordon,global,3.0,author-keywords
+Coco Feng,News,3.0,author-categories
+Avanish Tiwary,series,3.0,author-keywords
+Nicole Jao,Mobile,3.0,author-categories
+Stefanie Yeo,Data science,3.0,author-categories
 Sarah Dai,News,3.0,author-categories
 Nathaniel Fetalvero,News,3.0,author-categories
 TIA Visuals,Trends,3.0,author-categories
@@ -116,8 +247,8 @@ Terence Lee,Investments,3.0,author-categories
 Jane Zhang,News,3.0,author-categories
 Jack Ellis,Investments,3.0,author-categories
 Nathan Millard,Community,3.0,author-categories
-Stefanie Yeo,Data science,3.0,author-categories
 Joseph Gan,Analysis,3.0,author-categories
+Doris Yu,delivery,3.0,author-keywords
 Terence Lee,Profiles,3.0,author-categories
 Putra Muskita,Startups,3.0,author-categories
 Nikki Natividad,Investments,3.0,author-categories
@@ -125,181 +256,119 @@ Edith C.,TIA Partnership,3.0,author-categories
 Melvin Chen,TIA Originals,3.0,author-categories
 Aditya Hadi Pratama,Fintech,3.0,author-categories
 Putra Muskita,Ecommerce,3.0,author-categories
-Kenan Machado,Investments,3.0,author-categories
-Nicole Jao,Mobile,3.0,author-categories
-AJ Cortese,News,3.0,author-categories
-Coco Feng,News,3.0,author-categories
-AJ Cortese,Startups,3.0,author-categories
-Doris Yu,Gaming,3.0,author-categories
-Aditya Hadi Pratama,Trends,3.0,author-categories
-Joseph Gan,Investments,2.0,author-categories
-Kimberly Garcia,TIA Partnership,2.0,author-categories
-Putra Muskita,Profiles,2.0,author-categories
-Minghe Hu,News,2.0,author-categories
-Masha Borak,Internet,2.0,author-categories
-Kimberly Garcia,Business-to-business,2.0,author-categories
-Andrew Baisley,Opinion,2.0,author-categories
-Nathan Millard,Opinion,2.0,author-categories
-Joseph Gan,GreenTech,2.0,author-categories
-Aditya Hadi Pratama,Ecommerce,2.0,author-categories
-Stefanie Yeo,Mobile,2.0,author-categories
-Salonie Ganju,Community,2.0,author-categories
-Kenan Machado,Transportation,2.0,author-categories
-Rizqi Maulana,Startups,2.0,author-categories
-Samantha Cheh,TIA Partnership,2.0,author-categories
-Joseph Gan,Asia,2.0,author-categories
-Salonie Ganju,Startups,2.0,author-categories
-Masha Borak,Artificial Intelligence,2.0,author-categories
-Moulishree Srivastava,Fintech,2.0,author-categories
-Maria Li,Opinion,2.0,author-categories
-Minghe Hu,Startups,2.0,author-categories
-Winston Zhang,Ecommerce,2.0,author-categories
-Sarah Dai,Artificial Intelligence,2.0,author-categories
-Salonie Ganju,Q&A,2.0,author-categories
-Kenan Machado,Media,2.0,author-categories
-Sarah Dai,Startups,2.0,author-categories
-Nathaniel Fetalvero,Profiles,2.0,author-categories
-Kenan Machado,Mobile,2.0,author-categories
-KC Calpo,Startups,2.0,author-categories
-Winston Zhang,Artificial Intelligence,2.0,author-categories
-KC Calpo,Premium Content,2.0,author-categories
-Ursula Florene,Investments,2.0,author-categories
-Melissa Goh,Ecommerce,2.0,author-categories
-Stefanie Yeo,Profiles,2.0,author-categories
-Cindy Silviana,Transportation,2.0,author-categories
-Terence Lee,Landscape reports,2.0,author-categories
-Jonathan Burgos,Premium Content,2.0,author-categories
-Coco Feng,Startups,2.0,author-categories
-Georg Chmiel,Startups,2.0,author-categories
-Georg Chmiel,Opinion,2.0,author-categories
-Georg Chmiel,Community,2.0,author-categories
-Terence Lee,Social Media,2.0,author-categories
-Esther Loh,Videos,2.0,author-categories
-Esther Loh,TIA Partnership,2.0,author-categories
-Esther Loh,Asia,2.0,author-categories
-Terence Lee,Trends,2.0,author-categories
-Theodora Sarah Abigail,Investments,2.0,author-categories
-Theodora Sarah Abigail,Premium Content,2.0,author-categories
-Theodora Sarah Abigail,Startups,2.0,author-categories
-Thu Huong Le,Gaming,2.0,author-categories
-Thu Huong Le,Trends,2.0,author-categories
-Doris Yu,Trends,2.0,author-categories
-Diah Harni,Conference,2.0,author-categories
-Melvin Chen,TIA Partnership,2.0,author-categories
-Diah Harni,Events,2.0,author-categories
-Diah Harni,News,2.0,author-categories
-Doris Yu,Media,2.0,author-categories
-Doris Yu,Management,2.0,author-categories
-Doris Yu,Asia,2.0,author-categories
-Doris Yu,Internet,2.0,author-categories
-Nathaniel Fetalvero,Investments,2.0,author-categories
-Miguel Cordon,Asia,2.0,author-categories
-Putra Muskita,Fintech,2.0,author-categories
-Stefanie Yeo,Tips,2.0,author-categories
-William Gozali,Startups,2.0,author-categories
-Jane Zhang,Startups,2.0,author-categories
-William Gozali,Opinion,2.0,author-categories
-Jack Ellis,Fintech,2.0,author-categories
-Doris Yu,Business-to-business,2.0,author-categories
-Betty Chum,Announcements,2.0,author-categories
-TIA Bot,Asia,2.0,author-categories
-William Gozali,Community,2.0,author-categories
-TIA Jobs Bot,Recruitment,2.0,author-categories
-TIA Jobs Bot,Tech in Asia Jobs,2.0,author-categories
-Willis Wee,Announcements,2.0,author-categories
+Eric Ng,hong kong,2.0,author-keywords
+Thu Huong Le,fund,2.0,author-keywords
 Melissa Goh,Internet,2.0,author-categories
-Celia Chen,News,2.0,author-categories
+Putra Muskita,tech,2.0,author-keywords
+TIA Jobs Bot,tech,2.0,author-keywords
+Kenan Machado,pay,2.0,author-keywords
+Melissa Goh,digital,2.0,author-keywords
+Jonathan Burgos,gojek,2.0,author-keywords
+Thu Huong Le,grab,2.0,author-keywords
+Kenan Machado,uber,2.0,author-keywords
+Rizqi Maulana,indonesia,2.0,author-keywords
+Melissa Goh,staff,2.0,author-keywords
+Kenan Machado,oyo,2.0,author-keywords
+Melissa Goh,pay,2.0,author-keywords
+Samantha Cheh,tech,2.0,author-keywords
+Minghe Hu,china,2.0,author-keywords
+Kenan Machado,fund,2.0,author-keywords
+Melvin Chen,indonesia,2.0,author-keywords
+Kenan Machado,facebook,2.0,author-keywords
+Miguel Cordon,uber,2.0,author-keywords
+Enoch Yiu,hong kong,2.0,author-keywords
+Willis Wee,coronavirus,2.0,author-keywords
+Doris Yu,unicorn,2.0,author-keywords
+TIA Visuals,southeast,2.0,author-keywords
+Jack Ellis,app,2.0,author-keywords
+TIA Visuals,grab,2.0,author-keywords
+TIA Visuals,tech,2.0,author-keywords
+Terence Lee,ceo,2.0,author-keywords
+Terence Lee,fund,2.0,author-keywords
+Terence Lee,indonesia,2.0,author-keywords
+Terence Lee,grab,2.0,author-keywords
+Nathan Millard,Opinion,2.0,author-categories
+TIA Visuals,indonesia,2.0,author-keywords
+Andrew Baisley,Opinion,2.0,author-categories
+Kimberly Garcia,Business-to-business,2.0,author-categories
+Masha Borak,Internet,2.0,author-categories
+Minghe Hu,News,2.0,author-categories
+Putra Muskita,Profiles,2.0,author-categories
+Kimberly Garcia,TIA Partnership,2.0,author-categories
+Joseph Gan,Investments,2.0,author-categories
+TIA Visuals,china,2.0,author-keywords
+Moulishree Srivastava,bytedance,2.0,author-keywords
+Doris Yu,staff,2.0,author-keywords
+Cindy Silviana,indonesia,2.0,author-keywords
+Doris Yu,oyo,2.0,author-keywords
+Doris Yu,hong kong,2.0,author-keywords
+Thu Huong Le,tech,2.0,author-keywords
+Doris Yu,coronavirus,2.0,author-keywords
+Doris Yu,bytedance,2.0,author-keywords
+Ursula Florene,fund,2.0,author-keywords
+Coco Feng,fund,2.0,author-keywords
+"Vincent Fernando, CFA",china,2.0,author-keywords
+Theodora Sarah Abigail,edtech,2.0,author-keywords
+"Vincent Fernando, CFA",softbank,2.0,author-keywords
+"Vincent Fernando, CFA",tech,2.0,author-keywords
+Wency Chen,china,2.0,author-keywords
+Betty Chum,coronavirus,2.0,author-keywords
+Putra Muskita,coronavirus,2.0,author-keywords
+Willis Wee,grab,2.0,author-keywords
+Aditya Hadi Pratama,coronavirus,2.0,author-keywords
+Putra Muskita,fund,2.0,author-keywords
+Song Jingli,china,2.0,author-keywords
+Kimberly Garcia,hong kong,2.0,author-keywords
+Doris Yu,Asia,2.0,author-categories
+Doris Yu,Media,2.0,author-categories
+Diah Harni,News,2.0,author-categories
+Diah Harni,Events,2.0,author-categories
+Melvin Chen,TIA Partnership,2.0,author-categories
+Diah Harni,Conference,2.0,author-categories
+Doris Yu,Trends,2.0,author-categories
+Thu Huong Le,Trends,2.0,author-categories
+Thu Huong Le,Gaming,2.0,author-categories
+Theodora Sarah Abigail,Startups,2.0,author-categories
+Theodora Sarah Abigail,Premium Content,2.0,author-categories
+Theodora Sarah Abigail,Investments,2.0,author-categories
+Terence Lee,Trends,2.0,author-categories
+Esther Loh,Asia,2.0,author-categories
+Esther Loh,TIA Partnership,2.0,author-categories
+Esther Loh,Videos,2.0,author-categories
+Terence Lee,Social Media,2.0,author-categories
+Georg Chmiel,Community,2.0,author-categories
+Georg Chmiel,Opinion,2.0,author-categories
+Georg Chmiel,Startups,2.0,author-categories
+Doris Yu,Management,2.0,author-categories
+Doris Yu,Internet,2.0,author-categories
+Jonathan Burgos,Premium Content,2.0,author-categories
+Nathaniel Fetalvero,Investments,2.0,author-categories
 Celia Chen,Startups,2.0,author-categories
 Miguel Cordon,Media,2.0,author-categories
 Melissa Goh,Analysis,2.0,author-categories
 Nathaniel Fetalvero,Fintech,2.0,author-categories
 Nathan Millard,Startups,2.0,author-categories
 Jack Ellis,Profiles,2.0,author-categories
-Miguel Cordon,fund,38.0,author-keywords
-Doris Yu,series,30.0,author-keywords
-Miguel Cordon,series,29.0,author-keywords
-Doris Yu,fund,27.0,author-keywords
-Doris Yu,singapore,22.0,author-keywords
-Miguel Cordon,money,18.0,author-keywords
-Miguel Cordon,singapore,17.0,author-keywords
-Miguel Cordon,seed,15.0,author-keywords
-Miguel Cordon,grab,14.0,author-keywords
-Miguel Cordon,india,13.0,author-keywords
-Kenan Machado,india,13.0,author-keywords
-Doris Yu,indonesia,13.0,author-keywords
-Miguel Cordon,hong kong,12.0,author-keywords
-Doris Yu,india,12.0,author-keywords
-Miguel Cordon,app,11.0,author-keywords
-Doris Yu,money,11.0,author-keywords
-Miguel Cordon,platform,11.0,author-keywords
-Miguel Cordon,indonesia,11.0,author-keywords
-Miguel Cordon,capital,10.0,author-keywords
-Doris Yu,platform,10.0,author-keywords
-TIA Visuals,series,10.0,author-keywords
-Doris Yu,seed,9.0,author-keywords
-Doris Yu,softbank,9.0,author-keywords
-TIA Bot,tech,8.0,author-keywords
-Aditya Hadi Pratama,indonesia,8.0,author-keywords
-Putra Muskita,indonesia,7.0,author-keywords
-Miguel Cordon,gojek,7.0,author-keywords
-Doris Yu,capital,7.0,author-keywords
-Doris Yu,launch,7.0,author-keywords
-Miguel Cordon,digital,7.0,author-keywords
-Avanish Tiwary,india,7.0,author-keywords
-Miguel Cordon,softbank,7.0,author-keywords
-Miguel Cordon,tech,7.0,author-keywords
-Doris Yu,digital,6.0,author-keywords
-Doris Yu,facebook,6.0,author-keywords
-Jonathan Burgos,coronavirus,6.0,author-keywords
-Doris Yu,jio,6.0,author-keywords
-Doris Yu,gojek,6.0,author-keywords
-Doris Yu,grab,6.0,author-keywords
-Miguel Cordon,service,5.0,author-keywords
-Doris Yu,southeast,5.0,author-keywords
-Doris Yu,china,5.0,author-keywords
-Wency Chen,bytedance,5.0,author-keywords
-TIA Bot,capital,5.0,author-keywords
-TIA Bot,venture,5.0,author-keywords
-Doris Yu,app,5.0,author-keywords
-Henan Sun,china,5.0,author-keywords
-Miguel Cordon,edtech,5.0,author-keywords
-Moulishree Srivastava,india,5.0,author-keywords
-Doris Yu,service,5.0,author-keywords
-Aditya Hadi Pratama,gojek,4.0,author-keywords
-Miguel Cordon,southeast,4.0,author-keywords
-Miguel Cordon,staff,4.0,author-keywords
-Doris Yu,sea,4.0,author-keywords
-TIA Bot,southeast,4.0,author-keywords
-TIA Visuals,seed,4.0,author-keywords
-Doris Yu,edtech,4.0,author-keywords
-Terence Lee,gojek,4.0,author-keywords
-Miguel Cordon,launch,4.0,author-keywords
-Miguel Cordon,jio,4.0,author-keywords
-TIA Bot,india,4.0,author-keywords
-TIA Visuals,fund,4.0,author-keywords
-Miguel Cordon,delivery,4.0,author-keywords
-Jack Ellis,grab,4.0,author-keywords
-Doris Yu,tech,4.0,author-keywords
-Miguel Cordon,china,4.0,author-keywords
-TIA Bot,china,4.0,author-keywords
-Stefanie Yeo,tech,3.0,author-keywords
-Kenan Machado,edtech,3.0,author-keywords
-Khamila Mulia,indonesia,3.0,author-keywords
-Terence Lee,southeast,3.0,author-keywords
-Maria Li,tech,3.0,author-keywords
-Putra Muskita,online,3.0,author-keywords
-Miguel Cordon,oyo,3.0,author-keywords
-Willis Wee,gojek,3.0,author-keywords
-Doris Yu,bank,3.0,author-keywords
-Miguel Cordon,pay,3.0,author-keywords
-Miguel Cordon,online,3.0,author-keywords
-Miguel Cordon,sea,3.0,author-keywords
-Avanish Tiwary,softbank,3.0,author-keywords
-Doris Yu,pay,3.0,author-keywords
-Doris Yu,delivery,3.0,author-keywords
-Avanish Tiwary,series,3.0,author-keywords
-Miguel Cordon,global,3.0,author-keywords
-Doris Yu,ceo,3.0,author-keywords
+Willis Wee,Announcements,2.0,author-categories
+TIA Jobs Bot,Tech in Asia Jobs,2.0,author-categories
+William Gozali,Community,2.0,author-categories
+TIA Bot,Asia,2.0,author-categories
+Betty Chum,Announcements,2.0,author-categories
+Doris Yu,Business-to-business,2.0,author-categories
+Jack Ellis,Fintech,2.0,author-categories
+William Gozali,Opinion,2.0,author-categories
+Jane Zhang,Startups,2.0,author-categories
+William Gozali,Startups,2.0,author-categories
+Stefanie Yeo,Tips,2.0,author-categories
+Putra Muskita,Fintech,2.0,author-categories
+Miguel Cordon,Asia,2.0,author-categories
+Coco Feng,Startups,2.0,author-categories
+Terence Lee,Landscape reports,2.0,author-categories
+Nikki Natividad,edtech,2.0,author-keywords
+Kenan Machado,Transportation,2.0,author-categories
+Stefanie Yeo,Mobile,2.0,author-categories
+Aditya Hadi Pratama,Ecommerce,2.0,author-categories
+Joseph Gan,GreenTech,2.0,author-categories
 Stefanie Yeo,crisis,2.0,author-keywords
 Minghe Hu,delivery,2.0,author-keywords
 Nathaniel Fetalvero,app,2.0,author-keywords
@@ -308,7 +377,7 @@ Miguel Cordon,coronavirus,2.0,author-keywords
 Miguel Cordon,ceo,2.0,author-keywords
 Joseph Gan,ceo,2.0,author-keywords
 TIA Bot,hong kong,2.0,author-keywords
-Song Jingli,china,2.0,author-keywords
+Celia Chen,News,2.0,author-categories
 TIA Bot,indonesia,2.0,author-keywords
 TIA Bot,singapore,2.0,author-keywords
 Jonathan Burgos,grab,2.0,author-keywords
@@ -316,96 +385,27 @@ Karen Chiu,hong kong,2.0,author-keywords
 Nicole Jao,china,2.0,author-keywords
 Sarah Dai,coronavirus,2.0,author-keywords
 Moulishree Srivastava,oyo,2.0,author-keywords
-Nikki Natividad,edtech,2.0,author-keywords
-Kimberly Garcia,hong kong,2.0,author-keywords
-Putra Muskita,coronavirus,2.0,author-keywords
-Putra Muskita,fund,2.0,author-keywords
-Melissa Goh,digital,2.0,author-keywords
-Jonathan Burgos,gojek,2.0,author-keywords
-Putra Muskita,tech,2.0,author-keywords
-Kenan Machado,uber,2.0,author-keywords
-Rizqi Maulana,indonesia,2.0,author-keywords
-Melissa Goh,staff,2.0,author-keywords
-Kenan Machado,pay,2.0,author-keywords
-Kenan Machado,oyo,2.0,author-keywords
-Samantha Cheh,tech,2.0,author-keywords
-Minghe Hu,china,2.0,author-keywords
-Kenan Machado,fund,2.0,author-keywords
-Melvin Chen,indonesia,2.0,author-keywords
-Kenan Machado,facebook,2.0,author-keywords
-Miguel Cordon,uber,2.0,author-keywords
-Melissa Goh,pay,2.0,author-keywords
-TIA Jobs Bot,tech,2.0,author-keywords
-Eric Ng,hong kong,2.0,author-keywords
-Thu Huong Le,fund,2.0,author-keywords
-Enoch Yiu,hong kong,2.0,author-keywords
-Thu Huong Le,grab,2.0,author-keywords
-Doris Yu,unicorn,2.0,author-keywords
-Doris Yu,staff,2.0,author-keywords
-Doris Yu,oyo,2.0,author-keywords
-Doris Yu,hong kong,2.0,author-keywords
-Thu Huong Le,tech,2.0,author-keywords
-Doris Yu,coronavirus,2.0,author-keywords
-Doris Yu,bytedance,2.0,author-keywords
-Ursula Florene,fund,2.0,author-keywords
-Coco Feng,fund,2.0,author-keywords
-Cindy Silviana,indonesia,2.0,author-keywords
-"Vincent Fernando, CFA",china,2.0,author-keywords
-"Vincent Fernando, CFA",softbank,2.0,author-keywords
-"Vincent Fernando, CFA",tech,2.0,author-keywords
-Wency Chen,china,2.0,author-keywords
-Betty Chum,coronavirus,2.0,author-keywords
-Willis Wee,coronavirus,2.0,author-keywords
-Willis Wee,grab,2.0,author-keywords
-Aditya Hadi Pratama,coronavirus,2.0,author-keywords
-Theodora Sarah Abigail,edtech,2.0,author-keywords
-Moulishree Srivastava,bytedance,2.0,author-keywords
-TIA Visuals,indonesia,2.0,author-keywords
-TIA Visuals,china,2.0,author-keywords
-Jack Ellis,app,2.0,author-keywords
-TIA Visuals,grab,2.0,author-keywords
-TIA Visuals,tech,2.0,author-keywords
-Terence Lee,ceo,2.0,author-keywords
-Terence Lee,fund,2.0,author-keywords
-Terence Lee,indonesia,2.0,author-keywords
-Terence Lee,grab,2.0,author-keywords
-TIA Visuals,southeast,2.0,author-keywords
-money,series,30.8411214953271,keywords-keywords
-fund,seed,22.429906542056074,keywords-keywords
-fund,series,18.22429906542056,keywords-keywords
-gojek,grab,14.018691588785046,keywords-keywords
-fund,softbank,9.813084112149532,keywords-keywords
-gojek,indonesia,9.813084112149532,keywords-keywords
-News,Startups,479.00000000000006,categories-categories
-News,Investments,319.0,categories-categories
-Startups,Investments,297.0,categories-categories
-News,Fintech,92.0,categories-categories
-Fintech,Investments,57.00000000000001,categories-categories
-Startups,Fintech,47.0,categories-categories
-Transportation,News,39.0,categories-categories
-News,Ecommerce,38.0,categories-categories
-Startups,Transportation,34.0,categories-categories
-Premium Content,Analysis,33.0,categories-categories
-News,Artificial Intelligence,33.0,categories-categories
-Artificial Intelligence,Startups,31.0,categories-categories
-Opinion,Community,29.0,categories-categories
-Community,Startups,28.0,categories-categories
-Premium Content,Landscape reports,25.0,categories-categories
-Premium Content,Profiles,25.0,categories-categories
-Landscape reports,Investments,25.0,categories-categories
-Artificial Intelligence,Investments,24.0,categories-categories
-Investments,Premium Content,21.0,categories-categories
-News,Acquisitions,20.0,categories-categories
-Premium Content,Fintech,20.0,categories-categories
-Asia,Premium Content,20.0,categories-categories
-Opinion,Startups,20.0,categories-categories
-Acquisitions,Startups,19.0,categories-categories
-Ecommerce,Premium Content,18.0,categories-categories
-Premium Content,Trends,16.0,categories-categories
-Asia,Analysis,14.0,categories-categories
-Startups,Landscape reports,12.0,categories-categories
-Visual Stories,Asia,12.0,categories-categories
-Premium Content,Startups,11.0,categories-categories
-News,Gaming,10.0,categories-categories
-Blockchain,News,10.0,categories-categories
-News,Analysis,9.0,categories-categories
+Salonie Ganju,Community,2.0,author-categories
+Rizqi Maulana,Startups,2.0,author-categories
+Cindy Silviana,Transportation,2.0,author-categories
+Samantha Cheh,TIA Partnership,2.0,author-categories
+Stefanie Yeo,Profiles,2.0,author-categories
+Melissa Goh,Ecommerce,2.0,author-categories
+Ursula Florene,Investments,2.0,author-categories
+KC Calpo,Premium Content,2.0,author-categories
+Winston Zhang,Artificial Intelligence,2.0,author-categories
+KC Calpo,Startups,2.0,author-categories
+Kenan Machado,Mobile,2.0,author-categories
+Nathaniel Fetalvero,Profiles,2.0,author-categories
+Sarah Dai,Startups,2.0,author-categories
+Kenan Machado,Media,2.0,author-categories
+Salonie Ganju,Q&A,2.0,author-categories
+Sarah Dai,Artificial Intelligence,2.0,author-categories
+Winston Zhang,Ecommerce,2.0,author-categories
+Minghe Hu,Startups,2.0,author-categories
+Maria Li,Opinion,2.0,author-categories
+Moulishree Srivastava,Fintech,2.0,author-categories
+Masha Borak,Artificial Intelligence,2.0,author-categories
+Salonie Ganju,Startups,2.0,author-categories
+Joseph Gan,Asia,2.0,author-categories
+TIA Jobs Bot,Recruitment,2.0,author-categories

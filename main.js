@@ -544,7 +544,8 @@ function showTooltip(data, links, summary) {
   d3.selectAll("#top_keywords").selectAll("li").remove()
 
   const summary_data = summary.find((d) => d.id === data.id)
-  const top_list_data = links.filter((d) => d.start_id === data.id)
+  let top_list_data = links.filter((d) => d.start_id === data.id)
+  top_list_data = top_list_data.sort(function(a,b) { return +b.total - +a.total } )
   const top_categories = top_list_data.filter(
     (d) => d.category === "author-categories"
   )
@@ -582,7 +583,10 @@ function showTooltip(data, links, summary) {
 }
 
 function showInitCard(data) {
-  const { nodes, links } = data
+  let { nodes, links } = data
+  nodes = nodes.sort(function(a,b) { return +b.total - +a.total } )
+  //links = links.sort(function(a,b) { return +b.total - +a.total } )
+
   const articles_count = nodes.filter((d) => d.category === "author")
   const categories_count = nodes.filter((d) => d.category === "categories")
   const keywords_count = nodes.filter((d) => d.category === "keywords")
@@ -614,4 +618,6 @@ function showInitCard(data) {
     .text((d) => d.id)
 
   calendar()("Overall")
+
+   d3.select('#tooltip').style('visibility', 'visible')
 }
